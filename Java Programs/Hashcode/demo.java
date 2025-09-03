@@ -4,6 +4,7 @@ class A{
     A(){
         System.out.println("Class A constructor");
     }
+    @Override
     public String toString(){
         return model+" "+price;
     }
